@@ -655,3 +655,27 @@ body {
     }
   }
 }
+
+//Carousel styles
+
+.carousel-inner {
+  padding-right: 100px;
+  padding-left: 100px;
+
+  .carousel-caption {
+    position: static;
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .carousel-inner {
+    .carousel-caption {
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
