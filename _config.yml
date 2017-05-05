@@ -1,0 +1,30 @@
+# Site settings
+title: Signs2Me. App de mensajería instantánea para personas sordas en Colombia
+email: me@wisewaresas.com
+description: Signs2Me es una App de mensajería instantánea para personas sordas con soporte para Lengua de Señas Colombiana (LSC). Nada para sordos sin los sordos
+
+baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
+url: "https://jekynewage.github.io" # the base hostname & protocol for your site
+
+google_analytics: "UA-81199000-1"
+addthis_id: ra-590bc8f86a4a8059
+disqus_account: jeky-new-age
+
+# Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) see all icon at fontawesome.io
+social:
+  - title: twitter
+    url: https://twitter.com/signs2me
+  - title: facebook
+    url: https://facebook.com/signs2me
+  - title: instagram
+    url: https://www.instagram.com/signs2meapp
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
+# Build settings
